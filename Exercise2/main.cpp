@@ -24,7 +24,7 @@ int main()
     unsigned int c=0;
 
     std::ofstream file("result.txt", std::ios::app);
-    file<<"#N value"<<std::endl;
+    file<<"# N Mean"<<std::endl;
   
     double numero;
     while(fstr>>numero)  
