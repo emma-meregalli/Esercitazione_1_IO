@@ -22,13 +22,13 @@ int main()
     double n;
     double sum=0;
     unsigned int c=0;
-    std::ofstream file("result.txt", std::ios::app);
 
-    //std::string line;  
+    std::ofstream file("result.txt", std::ios::app);
+    file<<"#N value"<<std::endl;
+  
     double numero;
-    while(fstr>>numero)  //std::getline(fstr,line)
+    while(fstr>>numero)  
     {
-        //double numero=std::stod(line);
         n=map(numero);
         sum+=n;
         c++;
